@@ -140,9 +140,6 @@
   yakksBtn.style.transition = 'transform 0.3s ease';
   yakksBtn.style.zIndex = '10000';
 
-  // Load sound
-  const sound = new Audio('https://cdn.pixabay.com/download/audio/2023/07/21/audio_7c14f4b728.mp3');
-
   yakksBtn.addEventListener('mouseover', () => {
     yakksBtn.style.transform = 'scale(1.2)';
     sound.currentTime = 0;
